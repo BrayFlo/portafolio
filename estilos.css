@@ -1,0 +1,131 @@
+body{
+    color:black;
+    background-color:rgba(255, 230, 0, 0.829);
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo{
+text-align: center;
+font-family: sans-serif;
+
+}
+
+li{
+    font-size: 18px;
+}
+
+#Indice{
+    background-color: blue;
+    
+}
+
+.nav ul li{
+    border: 2px solid blue;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: gold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#inicio{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+#historia{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+#mitos{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+#campos{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+#requisitos{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+#unam{
+    background-color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 50px;
+    position: relative;
+    border: 5px solid;
+    margin: 50px;
+}
+
+.img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image{
+    width: 40%;
+    margin: 100px;
+}
+
+@media screen and  (max-width:768px){
+    .nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .titulo-h{
+        text-align: center;
+    }
+    contenedor-h{
+        margin: 200px;
+    }
+.image{
+    width: 100px;
+    margin: 10px 0;
+}
+}
